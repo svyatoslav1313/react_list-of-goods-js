@@ -60,7 +60,7 @@ export const App = () => {
 
         <button
           type="button"
-          className={`button is-succes ${sortField === SORT_LENGTH ? '' : 'is-light'}`}
+          className={`button is-success ${sortField === SORT_LENGTH ? '' : 'is-light'}`}
           onClick={() => setSortField(SORT_LENGTH)}
         >
           Sort by length
